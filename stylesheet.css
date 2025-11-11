@@ -1,0 +1,180 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+/* General navbar styling */
+.navbar {
+  /* background: linear-gradient(90deg, #0d1117, #21262d); */
+background-color: #555;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Logo / Brand */
+.navbar-brand {
+  font-weight: 700;
+  color: #00b4d8 !important;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #fff !important;
+  /* background-color: #fff; */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  color: #adb5bd !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  border-bottom: 2px solid #00b4d8;
+}
+
+/* Active link (optional highlight) */
+.navbar-nav .nav-link.active {
+  color: #00b4d8 !important;
+  border-bottom: 2px solid #00b4d8;
+}
+
+/* Search bar styling */
+.form-control {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+}
+
+/* .btns {
+  background-color: #007b5;
+  border: none;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.btns:hover {
+  background-color: #007b5;
+  
+} */
+
+/* Mobile toggle icon color */
+.navbar-toggler {
+  border: none;
+  color: #48ce14;
+}
+.navbar-toggler-icon {
+  filter: invert(80%);
+  /* background-color: #48ce14; */
+
+}
+
+
+  .products {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .product-image {
+    flex: 1 1 300px;
+  
+    text-align: center;
+  }
+
+  .product-image img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+  }
+
+  .product-details {
+    flex: 1 1 200px;
+    padding: 20px;
+  }
+
+  .product-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .product-details p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .price {
+    font-size: 1.5rem;
+    color: rgb(36, 22, 22);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .off{
+  font-size: .8rem;
+  font-weight: 7px;
+  padding: 1px;
+  color: #007b5e;
+
+  }
+
+  .btn {
+    background: #007b5e;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+
+  .btn:hover {
+    background: #007b5e);
+  }
+
+  @media (max-width: 768px) {
+    .product-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .product-details {
+      padding: 10px;
+    }
+  }
+
+/* .sec1{
+padding: 350px 0;
+background-image: url(vijay8499d.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+} */
+
+.carousel-item img{
+  object-fit: cover;
+  min-height: 200px;
+}
+.akhil{
+  background-color: honeydew;
+text-align: center;
+  
+}
+.btns{
+  background-color: #f27384;
+
+}
+.btns:hover{
+  background-color:white;
+  /* border: 1px solid #f27384; */
+  
+}
